@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'indroid';
+    src: url('fontes/idroid.otf')format('opentype');
+}
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url(fontes/bebasneue.ttf) format('truetype');
+}
+body{
+    font-family: 'indroid';
+    margin: 0px ;
+    padding: 0px;
+    background-color: #84E1AD;
+    width: 100%;
+}
+header{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #82D9A0, #1B5936); 
+    padding: 0px;
+    margin: 0px;
+}
+
+.curiosidade-de-tecnologia {
+    font-family: 'bebasneue';
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.curiosidade-de-tecnologia > h1{
+    text-align: center;
+    text-shadow: 1px 1px black; 
+    margin-bottom: 1px;
+}
+
+.curiosidade-de-tecnologia > p{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu{
+    padding: 0px;
+    margin: 0px;
+}
+.menu > a{
+    font-family: 'bebasneue';
+    color: white;
+    text-decoration: none;
+    margin-right: 7px ;
+    margin-left: 7px;
+}
+main {
+    font-family: 'indroid';
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+main > h1{
+    color: #1B5936;
+}
+h2{
+    background: linear-gradient(#84E1AD, white);
+    color: #1B5936;
+    padding: 2px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.link-especial > a{
+    text-decoration: none;
+    color: #023015;
+    font-size: larger ;
+}
+.imagem{
+    text-align: center;
+}
+.video{
+    background-color: #023015;
+    text-align: center;
+}
+.quer-aprender-mais{
+    background-color:#8ae6aa ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.quer-aprender-mais > h3{
+    background-color: #1B5936;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: white;
+    padding: 10px;
+    border-radius: 5px;  
+}
+.quer-aprender-mais > ul{
+    text-decoration: underline;
+}
+.quer-aprender-mais > p{
+    text-align: center;
+    margin: 5px;
+}
+footer{
+    background-color: #023015;
+    padding: 2px;
+    margin-top: 10px;
+}
+footer > p{
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+.larger{
+    font-size: larger;
+}
